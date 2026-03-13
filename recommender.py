@@ -3,7 +3,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Load dataset
-df = pd.read_csv("RAW_recipes.csv")
+df = pd.read_csv("recipes_small.csv")
 
 df['features'] =  df['ingredients'].astype(str) + " " + df['name'].astype(str)
 
