@@ -3,7 +3,7 @@ import pandas as pd
 from recommender import recommend_recipes, recommend_by_ingredients
 
 # Load dataset
-df = pd.read_csv("RAW_recipes.csv")
+df = pd.read_csv("recipes_small.csv")
 
 # ---------------- PAGE CONFIG ----------------
 st.set_page_config(
